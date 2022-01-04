@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border-radius: 5px;
+  border: 0.5px solid lightseagreen;
+  width: 500px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: lightseagreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.username {
+  font-weight: bold;
+  color: lightseagreen;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+h2{
+  margin-bottom: 30px;
+  background-color: lightseagreen;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
